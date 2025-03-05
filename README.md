@@ -1,12 +1,14 @@
 # Local GraphRAG Project
 
+![alt text](neo4j/nodemapping.png) 
+
 ## Overview
-A Local GraphRAG (Graph Retrieval-Augmented Generation) Project that leverages the power of **LangChain**, **Neo4j**, and **llama3.1** to enable natural language querying over a graph database for efficient knowledge retrieval from documents and structured graph data, enhancing **context-aware AI responses**.
+A Local GraphRAG (Graph Retrieval-Augmented Generation) Project that leverages the power of **LangChain**, **Neo4j**, and **llama3.1** to enable natural language querying over a graph database, enhancing **context-aware AI responses**.
 
 ## Features
 - Seamless integration with Neo4j for graph database management.
 - Utilizes Llama 3.1 for enhanced data processing capabilities.
-- Supports embedding with `hellord/mxbai-embed-large-v1:f16` for improved data representation.
+- Supports embedding with `mxbai-embed-large` for improved data representation.
 
 
 ## Prerequisite
