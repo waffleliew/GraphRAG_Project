@@ -18,7 +18,7 @@ A Local GraphRAG (Graph Retrieval-Augmented Generation) Project that leverages t
     - Embedding Model: mxbai-embed-large run `ollama pull mxbai-embed-large`
 
 ## Setting Up
-1. Ensure Neo4j auth credentials matches with `.env`
+1. Ensure Neo4j auth credentials in `docket-compose.yaml` matches with `.env`
 2. Run `docker-compose up` to set up Neo4j locally.
 3. Run `localcuisine.ipynb` to get started.
 
